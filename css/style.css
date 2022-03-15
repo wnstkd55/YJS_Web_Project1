@@ -229,6 +229,16 @@ body {
 .Navbar-menu-social li {
 	float: left;
 }
+main{
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+.logo{
+	width: fit-content;
+	height: fit-content;
+	
+}
 
 
 @media (min-width: 768px) {
@@ -284,7 +294,13 @@ body {
 .Navbar-quickLinks li {
 	display: inline-block;
 	}
-
-
+	main{
+		width: auto;
+		height: auto;
+		text-align: center;
+	}
+	.logo{
+		text-align: center;
+		
+	}	
 }
-
