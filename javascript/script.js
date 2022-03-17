@@ -3,5 +3,5 @@ jQuery(document).ready(function(){
         $(this).toggleClass('is-active');
         $('#navbarCollapse').toggleClass('is-active');
       });
-      AOS.init();
+      
 })

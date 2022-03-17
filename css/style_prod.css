@@ -1,4 +1,16 @@
 @charset 'utf-8';
+@font-face {
+    font-family: 'HSYuji-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSYuji-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .Navbar ul {
 	list-style: none;
 	padding-left: 0;
@@ -22,7 +34,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #595959;
+	background-color: #F2D4AE;
 }
 
 .u-pullRight {
@@ -132,7 +144,6 @@ button.Toggle {
 body {
 	min-height: 90vh;
 	padding-top: 6rem;
-	background-color: #595959;
 	
 }
 
@@ -182,7 +193,7 @@ body {
 	overflow-y: auto;
 	visibility: hidden;
 	padding: 2.4rem 0;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.92);
 	opacity: 0;
 	transition-property: opacity, visibility, width;
 	transition-duration: 0.35s, 0.25s, 0.25s;
@@ -212,6 +223,22 @@ body {
 	background-color: rgba(255, 255, 255, 0.06);
 }
 
+#Navbar-menu-submenu{
+	display: none;
+  }
+  
+  .Navbar-menu ul li:hover #Navbar-menu-submenu{
+	display: block;
+	width: inherit;
+	padding-left: 30px;
+	opacity: 0.5;
+  
+  }
+  
+  #Navbar-menu-submenu li{
+	width: inherit;
+}
+
 .Navbar-menu-minor {
 	color: #666666;
 	margin-top: 14px;
@@ -232,100 +259,63 @@ body {
 }
 main{
 	padding-top: 50px;
-	width: 90vw;
-	
-}
-
-.content{
-	padding-left: 200px;
-	border: 5px solid red;
-	text-align: center;
+	background-color: #F2D4AE;
+	/* border: 5px solid blue; */
 	z-index: -1;
 }
 
-.content .slides {
-	width: auto;
+.banner{
+	text-align: center;
+}
+.banner .search {
+	display: inline-block;
+	width: 700px;
+}
+
+main .container .content{
+	z-index: -1;
+}
+
+/* 1920x480 슬라이드 이미지크기 , width : 1996px */
+.content .slides {						
+	padding-top: 50px;
 	height: auto;
 	position: relative;
-	margin: auto;
 	text-align: center;
-	/* border: 5px solid skyblue; */
+	/* border: 5px solid red; */
+	z-index: 1;
 }
-.content .slides .slide1 { 
+.content .slides .slide1 {
+	width: 1400px;
+	height: 480px; 
 	display:inline-block;
-	margin: auto;
-	position: relative;
-	z-index: -1;
-}
-
-.content .inner {
-	/* border: 5px solid green; */
+	z-index: inherit;
 	text-align: center;
 }
-.content .inner h1 {
-	color: #595959;
-	font-size: 20px;
-	text-align: left;
-	margin-bottom: 30px;
-	padding-bottom: 15px;
-	border-bottom: #333 3px solid;
-}
-.content .inner .wrap {
-	width: inherit;
-	/* border: 5px solid yellow; */
-	
-}
-.content .inner .wrap::after {
-	/*자식 요소인 article의 float해제*/
-	content: "";
-	display: block;
-	clear: both;
-}
-.content .inner .wrap article {
+
+.content .product{
+	width: auto;
+	height: auto;
 	display: inline-block;
-	width: inherit;
-	height: inherit;
-	margin: 0 auto;
 	
 }
-.content .inner .wrap article:last-child {
-	/*제일 오른쪽 마지막 요소만 여백제거*/
-	margin-right: 0px;
-}
-.content .inner .wrap article h2 {
-	margin-bottom: 10px;
-}
-.content .inner .wrap article h2 a {
-	font: bold 16px/1 "arial";
-	color: #333;
-}
-.content .inner .wrap article p {
-	font: 14px/1.4 "arial";
-	color: #222;
-	
-}
-.content .inner .wrap article .pic {
-	width: inherit;
-	height: 300px;
-	background: #333;
-	margin-bottom: 15px;
-	position: relative;
-	overflow: hidden;
-	z-index: 1;
-	/* border: 5px solid orange; */
+
+.content .product h2{
+	font-family: 'HSYuji-Regular';
+	border-bottom: 3px solid #D96666;
 }
 
-.content .inner .wrap article .pic img {
-	object-fit: cover; /*pic프레임안에 이미지 꽉 채움*/
-	width: 100%;
-	height: 100%;
-	z-index: 1;
+.content .product h4{
+	font-family: 'GowunBatang-Regular';
+	font-weight: bold;
 }
 
-.content .inner .wrap article .pic:hover{
-	transform: scale(1.1);
-	opacity: 0.6;
+.content .product a {
+	text-decoration-line: none;
 }
+
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -336,7 +326,7 @@ main{
 body {
 	padding-top: 0;
 	padding-left: 6rem;
-	background-color: #595959;
+	background-color: #F2D4AE;
 }
 
 .Navbar {
