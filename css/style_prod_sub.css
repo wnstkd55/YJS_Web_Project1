@@ -142,12 +142,8 @@ button.Toggle {
 }
 
 body {
-	min-height: 10	0vh;
+	min-height: 90vh;
 	padding-top: 6rem;
-	background-image: url('/images/background2.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	
 }
 
@@ -263,7 +259,7 @@ body {
 }
 main{
 	padding-top: 50px;
-
+	background-color: #F2D4AE;
 	/* border: 5px solid blue; */
 	z-index: -1;
 }
@@ -291,46 +287,31 @@ main{
 
 	/* border: 5px solid blue; */
 }
-.board {
 
-	margin-left: 300px;
-	margin-right: 300px;
-	background-color: rgba(255, 255, 255, 0.5);
-}
-.table-common>table {
-	width: 100%;
-	border-collapse: collapse;
+main .container .content{
+	z-index: -1;
 }
 
-.table-common .btn-box {
-	text-align:center;
+.content .product{
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
-.table-common>table th, .table-common>table td {
-	border: 1px solid black;
-	padding: 10px;
+.content .product h2{
+	font-family: 'HSYuji-Regular';
+	border-bottom: 3px solid #D96666;
 }
 
-.article-list table {
-    border:none;   
-    border-top:2px solid lightgray;
-    border-bottom:2px solid lightgray;
+.content .product h4{
+	font-family: 'GowunBatang-Regular';
+	font-weight: bold;
 }
 
-.article-list > table th, .article-list > table td {
-    border:none;
+.content .product a {
+	text-decoration-line: none;
 }
-
-.article-list > table td {
-    border-bottom:1px solid lightgray;
-}
-
-.article-list > table thead {
-    border-bottom:2px solid lightgray;
-    background-color:#F5F5F5;
-}
-
-
+/* 서브 제품 사진 크지 251x251 */
 
 
 
@@ -343,7 +324,7 @@ main{
 body {
 	padding-top: 0;
 	padding-left: 6rem;
-	
+	background-color: #F2D4AE;
 }
 
 .Navbar {
