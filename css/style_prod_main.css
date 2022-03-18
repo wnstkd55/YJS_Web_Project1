@@ -289,6 +289,8 @@ main{
 
 main .container .content{
 	z-index: -1;
+	position: relative;
+
 }
 
 /* 1920x480 슬라이드 이미지크기 , width : 1996px */
@@ -299,13 +301,21 @@ main .container .content{
 	margin-right: auto;
 	/* border: 5px solid red; */
 	z-index: 1;
+	display: block;
+
 }
 .content .slides .slide1 {
-	display:inline-block;
+	width: auto;
+	display: block;
 	z-index: inherit;
 	margin-left: auto;
 	margin-right: auto;
-	
+	position: relative;
+}
+
+.content .slides .slide1 img{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content .product{
@@ -328,9 +338,57 @@ main .container .content{
 	text-decoration-line: none;
 }
 
+.content .ct_button1{
+	text-align: center;
+}
 
+.content .ct_button1 .pd_button1 {
+	box-shadow: 7px 7px 0px 0px #a63228;
+	background-color:#d96666;
+	border-radius:14px;
+	border:2px solid #7a2f2b;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'HSYuji-Regular';
+	font-size:23px;
+	padding:5px 32px;
+	text-decoration:#fff;
+	text-align: center;
+	
+}
+.pd_button1:hover {
+	background-color:#d65656;
+}
+.pd_button1:active {
+	position:relative;
+	top:1px;
+}
 
+.content .ct_button2{
+	text-align: center;
+	padding-bottom: 100px;
+}
 
+.content .ct_button2 .pd_button2 {
+	box-shadow: 7px 7px 0px 0px #a63228;
+	background-color:#d96666;
+	border-radius:14px;
+	border:2px solid #7a2f2b;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'HSYuji-Regular';
+	font-size:23px;
+	padding:5px 55px;
+	text-decoration:#fff;
+	text-align: center;
+}
+.pd_button2:hover {
+	background-color:#d65656;
+}
+.pd_button2:active {
+	position:relative;
+	top:1px;
+}
 
 @media screen and (min-width: 768px) {
 	.u-Navbar-hidden\@sm-up {
