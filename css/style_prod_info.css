@@ -284,72 +284,9 @@ main{
 	display: inline-block;
 	width: 700px;
 	z-index: -1;
-
 	/* border: 5px solid blue; */
 }
 
-main .container .content{
-	z-index: -1;
-}
-
-.content .product{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.content .product .thumbnail{
-	background-color: #F2D4AE;
-	border: #ebbb7c 1px solid;
-}
-.content .product .thumbnail:hover{
-	border: 1px #e79120 solid;
-}
-
-.content .product img{
-	/* border: 5px solid blue; */
-	width: 251px;
-	height: 251px;
-	/* 서브 제품 사진 크지 251x251 */
-}
-
-.content .product .caption{
-	line-height: 50%;
-	background-color: #F2D4AE;
-}
-
-.content .product h2{
-	font-family: 'HSYuji-Regular';
-	border-bottom: 3px solid #D96666;
-}
-
-.content .product h4{
-	font-size: 13px;
-	font-family: 'GowunBatang-Regular';
-	font-weight: bold;
-}
-
-.content .product a {
-	text-decoration-line: none;
-}
-
-.content .product p1 {
-	color: gray;
-	font-size: 11px;
-}
-
-.content .product p2 {
-	font-size: 13px;
-	font-weight: bold;
-}
-
-.content .product p3{
-	font-size: 13px;
-}
-
-.pagination > li {
-	background-color: #F2D4AE;
-}
 
 
 @media screen and (min-width: 768px) {

@@ -324,6 +324,26 @@ main .container .content{
 	
 }
 
+.content .product .thumbnail{
+	background-color: #F2D4AE;
+	border: #ebbb7c 1px solid;
+}
+.content .product .thumbnail:hover{
+	border: 1px #e79120 solid;
+}
+
+.content .product img{
+	/* border: 5px solid blue; */
+	width: 251px;
+	height: 251px;
+	/* 제품 사진 크지 251x251 */
+}
+
+.content .product .caption{
+	line-height: 50%;
+	background-color: #F2D4AE;
+}
+
 .content .product h2{
 	font-family: 'HSYuji-Regular';
 	border-bottom: 3px solid #D96666;
