@@ -214,17 +214,11 @@ body {
 
 #Navbar-menu-submenu{
 	display: none;
-  }
-  
-  .Navbar-menu ul li:hover #Navbar-menu-submenu{
-	display: block;
-	width: inherit;
-	padding-left: 30px;
 	opacity: 0.5;
-  
-  }
-  
-  #Navbar-menu-submenu li{
+	padding-left: 20px;
+}
+
+#Navbar-menu-submenu li{
 	width: inherit;
 }
 
@@ -252,21 +246,19 @@ main{
 }
 .banner{
 	/* border: 5px solid green; */
-	text-align: center;
 }
 .banner .logo{
-	
-	max-width: 100vw;
-	height: 50vh;
 	/* border: 5px solid blue; */
+	text-align: center;
+	overflow: hidden;
 }
 .logo img{
-
-	height: inherit;
+	margin-top: 150px;
+	width: auto;
+	max-height: auto;
 	/* border: 5px solid pink; */
-	padding-top: 50px;
 	z-index: -1;
-	
+	display: inline-block;
 }
 
 
