@@ -34,7 +34,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #F2D4AE;
+	background-color: #4F868C;
 }
 
 .u-pullRight {
@@ -144,11 +144,6 @@ button.Toggle {
 body {
 	min-height: 10	0vh;
 	padding-top: 6rem;
-	background-image: url('/images/background2.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	
 }
 
 .Navbar {
@@ -257,7 +252,7 @@ body {
 }
 main{
 	padding-top: 50px;
-
+	background-color: #4F868C;
 	/* border: 5px solid blue; */
 	z-index: -1;
 }
@@ -284,44 +279,6 @@ main{
 	z-index: -1;
 
 	/* border: 5px solid blue; */
-}
-.board {
-
-	margin-left: 300px;
-	margin-right: 300px;
-	background-color: rgba(255, 255, 255, 0.5);
-}
-.table-common>table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
-.table-common .btn-box {
-	text-align:center;
-}
-
-.table-common>table th, .table-common>table td {
-	border: 1px solid black;
-	padding: 10px;
-}
-
-.article-list table {
-    border:none;   
-    border-top:2px solid lightgray;
-    border-bottom:2px solid lightgray;
-}
-
-.article-list > table th, .article-list > table td {
-    border:none;
-}
-
-.article-list > table td {
-    border-bottom:1px solid lightgray;
-}
-
-.article-list > table thead {
-    border-bottom:2px solid lightgray;
-    background-color:#F5F5F5;
 }
 
 footer {

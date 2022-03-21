@@ -34,7 +34,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #F2D4AE;
+	background-color: #4F868C;
 }
 
 .u-pullRight {
@@ -142,9 +142,8 @@ button.Toggle {
 }
 
 body {
-	min-height: 90vh;
+	min-height: 100vh;
 	padding-top: 6rem;
-	
 }
 
 .Navbar {
@@ -253,7 +252,7 @@ body {
 }
 main{
 	padding-top: 50px;
-	background-color: #F2D4AE;
+	background-color: #4F868C;
 	/* border: 5px solid blue; */
 	z-index: -1;
 }
@@ -261,152 +260,59 @@ main{
 .banner{
 	text-align: center;
 	z-index: -1;
-	/* border: 5px solid red; */
-
 }
 
 .banner .logo{
-	width: fit-content;
+	width: auto;
 	height: auto;
 	position: relative;
 	z-index: 1;
-	/* border: 5px solid yellow; */
-	margin-left: auto;
-	margin-right: auto;
 }
 .banner .logo img{
 	width: 300px;
 	height: 200px;
-	position: relative;
-	display: inline-block;
 }
 
-.banner .searchbar {
+.banner .search {
+	display: inline-block;
 	width: 700px;
 	z-index: -1;
+
 	/* border: 5px solid blue; */
+}
+
+.studio_intro{
+	height: auto;
+	float: none;
+	text-align: center;
+	/* border: 5px solid blue; */
+	background: url("../images/wood-ga7d2fcd3b_1280.jpg");
+}
+
+.studio_intro .row-offcanvas-right{
+	/* border: 5px solid blue; */
+}
+
+.studio_intro .jumbotron{
+	height: auto;
+	border: 4px solid black;
+	box-shadow: 10px 10px 2px 2px rgba(45, 86, 90, 0.685);
+	text-align: center;
 	display: inline-block;
 }
 
-section .prod_info{
-	height: auto;
-	position: relative;
-	display: flex;
-	padding-left: 20px;
-}
-section .prod_info .prod_picture{
-	display: inline-block;
-	position:relative;
-	float: left;
-	width: 100%;
-}
-
-section .prod_info .prod_picture img{
-	display: inline-block;
-	height: auto;
+.studio_intro .studio_img .row{
+	display: block;
+	text-align: center;
 	/* border: 5px solid red; */
-	position: relative;
+	margin: 0 auto;
 }
-
-section .prod_info .prod_option{
-	width: 100%;
-	height: 400px;
-	display: inline-block;
-	position: relative;
-	/* border: 1px solid yellow; */
-	margin-left: 15px;
-	text-align: left;
-	background-color: rgba(243, 234, 209, 0.897);
-	box-shadow: 1px 1px 2px 2px rgba(138, 112, 79, 0.795);
-	border: none;
-	border-bottom-left-radius: 2%;
-	border-bottom-right-radius: 2%;
-	padding-left:20px;
-	padding-right: 20px;
-}
-
-section .option_btn{
-	width: auto;
-	position: relative;
-	padding-top: 20px
-}	
-.option_btn .ct_button1{
-	text-align: center;
-	float: left;
-	margin: 10px;
-}
-
-.option_btn .ct_button1 .buy_btn {
-	box-shadow: 7px 7px 0px 0px #a63228;
-	background-color:#d96666;
-	border-radius:14px;
-	border:2px solid #7a2f2b;
-	display:inline-block;
-	color:#ffffff;
-	font-family: 'HSYuji-Regular';
-	font-size:23px;
-	padding:5px 25px;
-	text-decoration:#fff;
-	text-align: center;
+.studio_intro .studio_img .row img{
+	border: 4px solid white;
+	box-shadow: 10px 10px 2px 2px rgba(45, 86, 90, 0.685);
+	margin-bottom: 20px;
 	
 }
-.ct_button1 .buy_btn:hover {
-	background-color:#d13e3e;
-}
-.ct_button1 .buy_btn:active {
-	position:relative;
-	top:1px;
-}
-section .option_btn{
-	width: auto;
-	position: relative;
-	padding-top: 20px
-}	
-.option_btn .ct_button2{
-	text-align: center;
-	float: left;
-	margin: 10px;
-}
-
-.option_btn .ct_button2 .keep_btn {
-	box-shadow: 7px 7px 0px 0px #3C3D59;
-	background-color:#6668aa;
-	border-radius:14px;
-	border:2px solid #0f1033;
-	display:inline-block;
-	color:#ffffff;
-	font-family: 'HSYuji-Regular';
-	font-size:23px;
-	padding:5px 25px;
-	text-decoration:#fff;
-	text-align: center;
-	
-}
-.ct_button2 .keep_btn:hover {
-	background-color:#373b9c;
-}
-.ct_button2 .keep_btn:active {
-	position:relative;
-	top:1px;
-}
-section .prod_picture_sub{
-	width: 100%;
-}
-
-section .prod_picture_sub img{
-	margin: 20px;
-}
-
-#movetopbt {
-	float: right;
-	width: 140px;
-	height: 28px;
-	background-color: red;
-	color: white;
-	cursor: pointer;
-	text-align: center;
-}
-
 footer {
 	width: auto;
 	height: 100%;
@@ -463,6 +369,9 @@ footer .inner .lower p {
 	color: #777;
 }
 
+
+
+
 @media screen and (min-width: 768px) {
 	.u-Navbar-hidden\@sm-up {
 	display:none;
@@ -471,7 +380,7 @@ footer .inner .lower p {
 body {
 	padding-top: 0;
 	padding-left: 6rem;
-	background-color: #F2D4AE;
+	
 }
 
 .Navbar {

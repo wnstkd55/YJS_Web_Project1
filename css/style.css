@@ -261,6 +261,31 @@ main{
 	display: inline-block;
 }
 
+.ct_button1{
+	text-align: center;
+	padding-top: 50px;
+}
+.ct_button1 .pd_button1 {
+	box-shadow: 7px 7px 0px 0px #a63228;
+	background-color:#d96666;
+	border-radius:14px;
+	border:2px solid #7a2f2b;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'HSYuji-Regular';
+	font-size:23px;
+	padding:5px 32px;
+	text-decoration:#fff;
+	text-align: center;
+	
+}
+.pd_button1:hover {
+	background-color:#d65656;
+}
+.pd_button1:active {
+	position:relative;
+	top:1px;
+}
 
 
 
