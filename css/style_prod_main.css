@@ -255,7 +255,7 @@ main{
 	padding-top: 50px;
 	width:100%;
 	background-color: #F2D4AE;
-	border: 5px solid purple;
+	/* border: 5px solid purple; */
 	z-index: -1;
 }
 
@@ -279,7 +279,7 @@ main{
 	display: inline-block;
 	width: 700px;
 	z-index: -1;
-	border: 5px solid blue;
+	/* border: 5px solid blue; */
 }
 
 .banner .search .input-group{
@@ -299,7 +299,7 @@ main .container .content{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	border: 5px solid red;
+	/* border: 5px solid red; */
 	z-index: 1;
 	display: inline-block;
 
@@ -324,7 +324,7 @@ main .container .content{
 	margin-left: auto;
 	margin-right: auto;
 	display: inline-block;
-	border: 5px solid yellow;
+	/* border: 5px solid yellow; */
 }
 
 .content .product .thumbnail{
