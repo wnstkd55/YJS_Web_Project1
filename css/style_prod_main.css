@@ -313,6 +313,8 @@ main .container .content{
 }
 
 .content .product{
+	width: auto	;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -462,7 +464,7 @@ footer .inner .lower p {
 }
 
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
 	.u-Navbar-hidden\@sm-up {
 	display:none;
 	}
