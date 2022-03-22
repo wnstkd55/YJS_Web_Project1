@@ -295,12 +295,12 @@ main .container .content{
 	margin-right: auto;
 	/* border: 5px solid red; */
 	z-index: 1;
-	display: block;
+	display: inline-block;
 
 }
 .content .slides .slide1 {
 	width: auto;
-	display: block;
+	display: inline-block;
 	z-index: inherit;
 	margin-left: auto;
 	margin-right: auto;
@@ -317,7 +317,7 @@ main .container .content{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	
+	display: inline-block;
 }
 
 .content .product .thumbnail{
