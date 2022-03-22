@@ -329,8 +329,13 @@ main .container .content{
 }
 
 .content .product .thumbnail{
+	width: 330px;
 	background-color: #F2D4AE;
 	border: #ebbb7c 1px solid;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 4px;
 }
 .content .product .thumbnail:hover{
 	border: 1px #e79120 solid;
@@ -362,6 +367,7 @@ main .container .content{
 .content .product a {
 	text-decoration-line: none;
 }
+
 
 .content .ct_button1{
 	text-align: center;
@@ -531,6 +537,19 @@ body {
 	display: inline-block;
 	
 	}
-
-	
+.content .product img{
+	/* border: 5px solid blue; */
+	width: auto;
+	height: auto;
+	/* 제품 사진 크지 251x251 */
+}
+.content .product .thumbnail{
+	width: auto;
+	background-color: #F2D4AE;
+	border: #ebbb7c 1px solid;
+}
+.content .product .thumbnail:hover{
+	border: 1px #e79120 solid;
+	transform: scale(1.1);
+}
 }
