@@ -150,8 +150,8 @@ body {
 
 .Navbar {
 	color: #fff;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: 15px;
+	font-family: 'HSYuji-Regular';
 	line-height: 28px;
 	letter-spacing: 2.8px;
 	text-transform: uppercase;
@@ -195,6 +195,7 @@ body {
 	visibility: hidden;
 	padding: 2.4rem 0;
 	background-color: rgba(0, 0, 0, 0.92);
+	font-family: 'HSYuji-Regular';
 	opacity: 0;
 	transition-property: opacity, visibility, width;
 	transition-duration: 0.35s, 0.25s, 0.25s;
