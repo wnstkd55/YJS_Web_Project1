@@ -252,7 +252,8 @@ body {
 	float: left;
 }
 main{
-	/* padding-top: 50px; */
+	padding-top: 50px;
+	width:fit-content;
 	background-color: #F2D4AE;
 	border: 5px solid purple;
 	z-index: -1;
