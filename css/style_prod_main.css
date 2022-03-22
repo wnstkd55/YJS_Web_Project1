@@ -284,7 +284,7 @@ main{
 main .container .content{
 	z-index: -1;
 	position: relative;
-
+	display: inline-block;
 }
 
 /* 1920x480 슬라이드 이미지크기 , width : 1996px */
@@ -299,7 +299,7 @@ main .container .content{
 
 }
 .content .slides .slide1 {
-	width: auto;
+	width: 100%;
 	display: inline-block;
 	z-index: inherit;
 	margin-left: auto;
@@ -313,7 +313,7 @@ main .container .content{
 }
 
 .content .product{
-	width: auto	;
+	width: 100%	;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -408,7 +408,7 @@ main .container .content{
 }
 
 footer {
-	width: auto;
+	width: 100%;
 	height: 100%;
 	background: #333;
 	padding: 100px 0px;
