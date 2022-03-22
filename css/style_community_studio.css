@@ -11,6 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .Navbar ul {
 	list-style: none;
 	padding-left: 0;
@@ -144,6 +150,10 @@ button.Toggle {
 body {
 	min-height: 100vh;
 	padding-top: 6rem;
+	/* background-image: url("../images/wood-ga7d2fcd3b_1280.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover; */
 }
 
 .Navbar {
@@ -285,20 +295,39 @@ main{
 	height: auto;
 	float: none;
 	text-align: center;
-	/* border: 5px solid blue; */
+	background-color: rgba(255, 255, 255, 0.527);
+	border: 10px solid #964b00;
 	background: url("../images/wood-ga7d2fcd3b_1280.jpg");
+	margin-top: 20px;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+	border-radius: 3%;
 }
 
-.studio_intro .row-offcanvas-right{
+
+
+.studio_intro .studio_main .col-sm-9 {
+	float: none;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	/* border: 5px solid blue; */
 }
+
 
 .studio_intro .jumbotron{
 	height: auto;
 	border: 4px solid black;
-	box-shadow: 10px 10px 2px 2px rgba(45, 86, 90, 0.685);
+	box-shadow: 10px 10px 2px 2px rgba(0, 0, 0, 0.685);
 	text-align: center;
 	display: inline-block;
+	margin: 50px;
+}
+
+.studio_intro .jumbotron p1{
+	font-family: 'InkLipquid';
+	font-size: 35px;
 }
 
 .studio_intro .studio_img .row{
@@ -307,12 +336,28 @@ main{
 	/* border: 5px solid red; */
 	margin: 0 auto;
 }
+
+.studio_intro .studio_img .col-xs-6{
+	padding: 5px;
+}
+
 .studio_intro .studio_img .row img{
 	border: 4px solid white;
-	box-shadow: 10px 10px 2px 2px rgba(45, 86, 90, 0.685);
+	box-shadow: 10px 10px 2px 2px rgba(0, 0, 0, 0.685);
 	margin-bottom: 20px;
 	
 }
+
+.studio_intro .studio_img .row p1{
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #000;
+	font-size: 20px;
+	font-family: 'InkLipquid';
+	background-color: yellow;
+	box-shadow: 10px 2px 0px 0px rgba(0, 0, 0, 0.404);
+}
+
 footer {
 	width: auto;
 	height: 100%;
