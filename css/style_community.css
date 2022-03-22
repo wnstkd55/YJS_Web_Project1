@@ -27,6 +27,7 @@ html {
 
 html {
 	font-size: 10px;
+	width: 768px;
 }
 
 body {
@@ -349,7 +350,7 @@ footer .inner .lower p {
 body {
 	padding-top: 0;
 	padding-left: 6rem;
-	
+	width: 100vw;
 }
 
 .Navbar {

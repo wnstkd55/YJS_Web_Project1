@@ -27,6 +27,7 @@ html {
 
 html {
 	font-size: 10px;
+	width: 768px;
 }
 
 body {
@@ -391,7 +392,7 @@ section .option_btn{
 	top:1px;
 }
 section .prod_picture_sub{
-	width: 100%;
+	width: 710px;
 }
 
 section .prod_picture_sub img{
@@ -470,6 +471,7 @@ footer .inner .lower p {
 	}
 
 body {
+	width: 100vw;
 	padding-top: 0;
 	padding-left: 6rem;
 	background-color: #F2D4AE;
@@ -524,6 +526,8 @@ body {
 	display: inline-block;
 	
 	}
-	
+	section .prod_picture_sub{
+		width: 100%;
+	}
 	
 }

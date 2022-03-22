@@ -27,6 +27,7 @@ html {
 
 html {
 	font-size: 10px;
+	width: 768px;
 }
 
 body {
@@ -413,6 +414,7 @@ body {
 	padding-top: 0;
 	padding-left: 6rem;
 	background-color: #F2D4AE;
+	width: 100vw;
 }
 
 .Navbar {

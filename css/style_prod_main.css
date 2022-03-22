@@ -27,6 +27,7 @@ html {
 
 html {
 	font-size: 10px;
+	width: 768px;
 }
 
 body {
@@ -477,6 +478,7 @@ footer .inner .lower p {
 	}
 
 body {
+	width: 100vw;
 	padding-top: 0;
 	padding-left: 6rem;
 	background-color: #F2D4AE;
@@ -502,8 +504,6 @@ body {
 }
 .Navbar-menu.is-active {
 	width: 26rem;
-	
-	
 }
 
 .Navbar-brand {
