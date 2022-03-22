@@ -253,9 +253,9 @@ body {
 }
 main{
 	padding-top: 50px;
-	width:95vw;
+	width:100%;
 	background-color: #F2D4AE;
-	/* border: 5px solid purple; */
+	border: 5px solid purple;
 	z-index: -1;
 }
 
