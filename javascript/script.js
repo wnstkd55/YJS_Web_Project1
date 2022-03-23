@@ -28,3 +28,23 @@ $(document).ready(function(){
       });
       // 애니메이션 효과없이 즉시 해당 위치 0 지점으로 이동함
     });
+
+//카테고리 이벤트
+$(document).ready(function(){
+  $(".e-list").slideUp(function () {
+      $(".e-button").removeClass("open");
+    });
+    
+    $(".e-button").on("click", function () {
+      if ($(this).hasClass("open")) {
+        $(".e-list").slideUp(function () {
+          $(".e-button").removeClass("open");
+        });
+      } else {
+        $(this).addClass("open");
+        setTimeout(function () {
+          $(".e-list").stop().slideDown();
+        }, 200);
+      }
+     });
+    });

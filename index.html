@@ -4,8 +4,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<meta name="apple-mobile-web-app-title" content="CodePen">
-<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
 <title>웹프로젝트</title>
 <link rel="stylesheet" href="css/style_prod_main.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -70,15 +68,31 @@
 	<div class = "banner">
 		<div class = "logo">
 			<a href="index.html"><img src="images/pj_logo.png" alt="로고"></a>
-		</div>
 			<div class = "search">
-			<div class="input-group input-group-lg">
-				<input type="text" class="form-control" placeholder="검색" aria-describedby="basic-addon2">
-				<span class="input-group-addon" id="basic-addon2">
-					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-				</span>
+				<div class="input-group input-group-lg">
+					<input type="text" class="form-control" placeholder="검색" aria-describedby="basic-addon2">
+					<span class="input-group-addon" id="basic-addon2">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</span>
+				</div>
 			</div>
 		</div>
+		<div class="category">
+			<div class="m-dropdown">
+				<div class="e-button open">
+					Category
+				</div>
+				<ul class="e-list">
+						<li><a href="#">디저트</a></li>
+						<li><a href="#">전통주</a></li>
+						<li><a href="#">그외 수제먹거리</a></li>
+						<li><a href="#">공예품</a></li>
+						<li><a href="#">도자기</a></li>
+						<li><a href="#">향초, 디퓨저, 방향제</a></li>
+				</ul>
+			</div>
+		</div>
+		
 	</div>
 	<div class="content">
 		<div class="slides">
@@ -119,7 +133,7 @@
 		</div>
 	<div class="container">
 		<div class="product">
-			<h2>오늘의 인기상품</h2>
+			<h2>오늘의 작품</h2>
 			<div class="col-sm-6 col-md-3">
 				<a href="#" class="thumbnail">
 					<img src="product_images/eat_p1.jpg" alt="...">
@@ -192,13 +206,13 @@
 					</div>
 				</a>
 			</div>
-			<div class="ct_button1"><a href="today_product_p1.html" class="pd_button1">더보러가기</a></div>
-			<h2>작가님 추천작품</h2>
+			<div class="ct_button1"><a href="today_product_p1.html" class="pd_button1">더 보러가기</a></div>
+			<h2>인기 작품</h2>
 				<div class="col-sm-6 col-md-3">
 				<a href="#" class="thumbnail">
 					<img src="product_images2/eat_p1.jpg" alt="...">
 					<div class="caption">
-						<h4>스테비아 곤약젤리</h4>
+						<h4>시트러스 혼디주 제주감귤주</h4>
 						<p>작품 별점 개발중</p>
 					</div>
 				</a>
@@ -207,7 +221,7 @@
 				<a href="#" class="thumbnail">
 					<img src="product_images2/p1.png" alt="...">
 					<div class="caption">
-						<h4>딸기농부가 직접만든 딸기청</h4>
+						<h4>대리석 에어팟 버즈 케이스</h4>
 						<p>작품 별점 개발중</p>
 					</div>
 				</a>
@@ -216,7 +230,7 @@
 				<a href="#" class="thumbnail">
 					<img src="product_images2/eat_p2.png" alt="...">
 					<div class="caption">
-						<h4>글꼴변경가능! 달 무드등</h4>
+						<h4>처음처럼 레터링 케이크</h4>
 						<p>작품 별점 개발중</p>
 					</div>
 				</a>
@@ -225,7 +239,7 @@
 					<a href="#" class="thumbnail">
 					<img src="product_images2/p2.jpg" alt="...">
 					<div class="caption">
-						<h4>디즈니 플라워 무드등</h4>
+						<h4>한잔하자 석고 방향제</h4>
 						<p>작품 별점 개발중</p>
 					</div>
 					</a>
@@ -234,7 +248,7 @@
 					<a href="#" class="thumbnail">
 						<img src="product_images2/p3.jpg" alt="...">
 						<div class="caption">
-							<h4>NW-S캔들워머 로봇라이트</h4>
+							<h4>시나몬 디퓨저</h4>
 							<p>작품 별점 개발중</p>
 						</div>
 					</a>
@@ -243,7 +257,7 @@
 					<a href="#" class="thumbnail">
 						<img src="product_images2/eat_p3.jpg" alt="...">
 						<div class="caption">
-							<h4>인스타 액자 무드등</h4>
+							<h4>다홍에그타르트</h4>
 							<p>작품 별점 개발중</p>
 						</div>
 					</a>
@@ -252,7 +266,7 @@
 					<a href="#" class="thumbnail">
 						<img src="product_images2/eat_p4.jpg" alt="...">
 						<div class="caption">
-							<h4>수제 딸기청</h4>
+							<h4>복숭아생초콜릿</h4>
 							<p>작품 별점 개발중</p>
 						</div>
 					</a>
@@ -261,12 +275,12 @@
 					<a href="#" class="thumbnail">
 						<img src="product_images2/p4.jpg" alt="...">
 						<div class="caption">
-							<h4>명화 목걸이</h4>
+							<h4>멍때리는 토끼잔</h4>
 							<p>작품 별점 개발중</p>
 						</div>
 					</a>
 				</div>
-				<div class="ct_button2"><a href="pop_product.html" class="pd_button2">더보러가기</a></div>
+				<div class="ct_button2"><a href="pop_product.html" class="pd_button2">더 보러가기</a></div>
 		</div>
 	</div>
 </main>
