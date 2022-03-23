@@ -255,7 +255,7 @@ body {
 	float: left;
 }
 main{
-	/* padding-top: 50px; */
+	padding-top: 50px;
 	width:100%;
 	background-color: #F2D4AE;
 	/* border: 5px solid blue; */
@@ -298,6 +298,7 @@ main .container .content{
 
 .content .product .thumbnail{
 	width: 330px;
+	height: 325px;
 	background-color: #F2D4AE;
 	border: #ebbb7c 1px solid;
 	position: relative;

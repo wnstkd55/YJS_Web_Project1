@@ -4,58 +4,293 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
 <meta name="apple-mobile-web-app-title" content="CodePen">
-<title>CMM_창작마</title>
-<link rel="stylesheet" href="css/style.css">
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<title>웹프로젝트</title>
+<link rel="stylesheet" href="css/style_prod_main.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<link rel="stylesheet" href="javascript/jquery-1.12.3.js">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
 <script src="javascript/script.js"></script>
 </head>
-
 <body translate="no">
-	<nav class="Navbar">
-		<a href="#" id="toggle" class="Toggle Navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"><span></span></a>
-		<a class="Navbar-brand u-pullRight" href="index.html"></i>Home</a>
-			<div id="navbarCollapse" class="Navbar-menu">
-				<ul class="Navbar-menu-major">
-					<li class = "menu"><a>작품</a>
-                        <ul id = Navbar-menu-submenu>
-							<li><a href="product.html">작품 보기</a></li>
-                            <li><a href="today_product_p1.html">오늘의 작품</a></li>
-                            <li><a href="pop_product.html">인기 작품</a></li>
-                            <li><a href="#link">작가님 추천작품</a></li>
-                        </ul>
-                    </li>
-					<li class = "menu"><a>커뮤니티</a>
-                        <ul id = Navbar-menu-submenu>
-                            <li><a href="intro_my_product.html">나의 작품 자랑하기</a></li>
-                            <li><a href="#link">인기작가님</a></li>
-                            <li><a href="intro_studio.html">제작공방소개</a></li>
-                        </ul>
-                    </li>
-					<li><a href="#link">고객센터</a></li>
-				</ul>
+<nav class="Navbar">
+	<a href="#" id="toggle" class="Toggle Navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"><span></span></a>
+	<a class="Navbar-brand u-pullRight" href="index.html"></i>Home</a>
+		<div id="navbarCollapse" class="Navbar-menu">
+			<ul class="Navbar-menu-major">
+				<li class = "menu"><a>작품</a>
+					<ul id = Navbar-menu-submenu>
+						<li><a href="index.html">작품 보기</a></li>
+						<li><a href="today_product_p1.html">오늘의 작품</a></li>
+						<li><a href="pop_product.html">인기 작품</a></li>
+						<li><a href="#link">작가님 추천작품</a></li>
+					</ul>
+				</li>
+				<li class = "menu"><a>커뮤니티</a>
+					<ul id = Navbar-menu-submenu>
+						<li><a href="intro_my_product.html">나의 작품 자랑하기</a></li>
+						<li><a href="#link">인기작가님</a></li>
+						<li><a href="intro_studio.html">제작공방소개</a></li>
+					</ul>
+				</li>
+				<li><a href="#link">고객센터</a></li>
+			</ul>
+			<ul class="Navbar-menu-social u-Navbar-hidden@sm-up">  
+				<li>
+				<a class="SocialLink" href="https://www.facebook.com/" target="_blank">
+					<svg class="SocialLink-icon"><use xlink:href="#facebook" /></svg>
+					<span class="SocialLink-text">Facebook</span>
+				</a>
+				</li>
+				<li>
+				<a class="SocialLink" href="#link">
+					<svg class="SocialLink-icon"><use xlink:href="#twitter" /></svg>
+					<span class="SocialLink-text">Twitter</span>
+				</a>
+				</li>
+				<li>
+				<a class="SocialLink" href="#link">
+					<svg class="SocialLink-icon"><use xlink:href="#instagram" /></svg>
+					<span class="SocialLink-text">Instagram</span>
+				</a>
+				</li>
+			</ul>
 			</div>
-		<ul class="Navbar-quickLinks">  
-			<li><a href="https://www.facebook.com">Facebook</a></li>
-			<li><a href="https://twitter.com/">Twitter</a></li>
-			<li><a href="https://www.instagram.com/">Instagram</a></li>
-		</ul>
-	</nav>
+		</div>
+	<ul class="Navbar-quickLinks">  
+		<li><a href="#link">Facebook</a></li>
+		<li><a href="#link">Twitter</a></li>
+		<li><a href="#link">Instagram</a></li>
+	</ul>
+</nav>
 <main>
-	<div class="banner">
-		<div class="logo" data-aos="fade-up">
-			<img src="images/pj_logo.png" class="img-responsive">
+	<div class = "banner">
+		<div class = "logo">
+			<a href="index.html"><img src="images/pj_logo.png" alt="로고"></a>
+		</div>
+			<div class = "search">
+			<div class="input-group input-group-lg">
+				<input type="text" class="form-control" placeholder="검색" aria-describedby="basic-addon2">
+				<span class="input-group-addon" id="basic-addon2">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</span>
+			</div>
 		</div>
 	</div>
-	<div class="ct_button1"><a href="product.html" class="pd_button1">작품 구경 하러가기</a></div>
-	<script>AOS.init();</script>
+	<div class="content">
+		<div class="slides">
+			<div class = slide1>
+				<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="images/slide_img1.png" alt="...">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img src="images/slide_img2.png" alt="...">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img src="images/slide_img3.png" alt="...">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+							<span  span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+				</div>	
+			</div>
+		</div>
+	<div class="container">
+		<div class="product">
+			<h2>오늘의 인기상품</h2>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/eat_p1.jpg" alt="...">
+					<div class="caption">
+						<h4>달달한 수제마카롱 뚱카롱</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/eat_p2.jpg" alt="...">
+					<div class="caption">
+						<h4>버들골 수제약과</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/eat_p3.jpg" alt="...">
+					<div class="caption">
+						<h4>감성마카롱 16구세트</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/p1.jpg" alt="...">
+					<div class="caption">
+						<h4>바다가보이는 장식품</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/p2.jpg" alt="...">
+					<div class="caption">
+						<h4>풍덩 머그잔</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/p3.jpg" alt="...">
+					<div class="caption">
+						<h4>이모티콘 소주잔</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/eat_p4.jpg" alt="...">
+					<div class="caption">
+						<h4>치아건강 자일리톨스톤</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images/eat_p5.jpg" alt="...">
+					<div class="caption">
+						<h4>기념일선물! 핑크플라워캔디</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+			</div>
+			<div class="ct_button1"><a href="today_product_p1.html" class="pd_button1">더보러가기</a></div>
+			<h2>작가님 추천작품</h2>
+				<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images2/eat_p1.jpg" alt="...">
+					<div class="caption">
+						<h4>스테비아 곤약젤리</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images2/p1.png" alt="...">
+					<div class="caption">
+						<h4>딸기농부가 직접만든 딸기청</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="product_images2/eat_p2.png" alt="...">
+					<div class="caption">
+						<h4>글꼴변경가능! 달 무드등</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+				</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a href="#" class="thumbnail">
+					<img src="product_images2/p2.jpg" alt="...">
+					<div class="caption">
+						<h4>디즈니 플라워 무드등</h4>
+						<p>작품 별점 개발중</p>
+					</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="product_images2/p3.jpg" alt="...">
+						<div class="caption">
+							<h4>NW-S캔들워머 로봇라이트</h4>
+							<p>작품 별점 개발중</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="product_images2/eat_p3.jpg" alt="...">
+						<div class="caption">
+							<h4>인스타 액자 무드등</h4>
+							<p>작품 별점 개발중</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="product_images2/eat_p4.jpg" alt="...">
+						<div class="caption">
+							<h4>수제 딸기청</h4>
+							<p>작품 별점 개발중</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="product_images2/p4.jpg" alt="...">
+						<div class="caption">
+							<h4>명화 목걸이</h4>
+							<p>작품 별점 개발중</p>
+						</div>
+					</a>
+				</div>
+				<div class="ct_button2"><a href="pop_product.html" class="pd_button2">더보러가기</a></div>
+		</div>
+	</div>
 </main>
-	
+<footer>
+	<div class="inner">
+		<div class="upper">
+			<h1>CMM</h1>
+			<ul>
+				<li><a href="#">Policy</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Family Site</a></li>
+				<li><a href="#">Sitemap</a></li>
+			</ul>
+		</div>
+		<div class="lower">
+			<address>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, facere.<br>
+				TEL : 070-7777-7612 C.P : 010-8222-7612
+			</address>
+			<p>
+				2022 CMM &copy; copyright all right reserved.
+			</p>
+		</div>
+	</div>
+</footer>
 </body>
-
 </html>
