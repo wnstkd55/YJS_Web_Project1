@@ -21,6 +21,8 @@ body{
     background-size: cover;
 }
 
+/* 로그인창 크기 구현 : 1245x700 */
+
   .wrap {
     width: 100vw;
     height: 100vh;
