@@ -41,7 +41,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #4F868C;
+	background-color: #F2D4AE;
 }
 
 .u-pullRight {
@@ -265,7 +265,7 @@ body {
 main{
 	padding-top: 50px;
 	width: 768px;
-	background-color: #4F868C;
+	background-color: #F2D4AE;
 	/* border: 5px solid blue; */
 	z-index: -1;
 }
@@ -484,7 +484,7 @@ body {
 main{
 		padding-top: 50px;
 		width: 100vw;
-		background-color: #4F868C;
+		background-color: #F2D4AE;
 		/* border: 5px solid blue; */
 		z-index: -1;
 }

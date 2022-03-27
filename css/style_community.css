@@ -11,6 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .Navbar ul {
 	list-style: none;
 	padding-left: 0;
@@ -35,7 +41,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #4F868C;
+	background-color: #F2D4AE;
 }
 
 .u-pullRight {
@@ -254,7 +260,7 @@ body {
 main{
 	padding-top: 50px;
 	width:100%;
-	background-color: #4F868C;
+	background-color: #F2D4AE;
 	/* border: 5px solid blue; */
 	z-index: -1;
 }
@@ -281,6 +287,51 @@ main{
 	z-index: -1;
 
 	/* border: 5px solid blue; */
+}
+
+
+
+.board .page-header{
+	font-family: 'InkLipquid';
+	font-weight: bold;
+}
+
+.sub-header{
+	font-family: 'InkLipquid';
+}
+
+.page {
+	text-align: center;
+	text-decoration: none;
+}
+
+.pagination {
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+}
+
+.pagination a {
+	text-align: center;
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	border-radius:50%;
+	font-size: 20px;
+	font-family: 'InkLipquid';
+}
+
+.pagination a.active {
+	text-decoration: none;
+	background-color: #e79120;
+	color: white;
+}
+
+.pagination a:hover:not(.active) {
+	background-color: #ebbb7c;
+	text-decoration: none;
 }
 
 footer {
@@ -402,6 +453,8 @@ body {
 	display: inline-block;
 	
 	}
-	
+	.board .container-fluid{
+		padding-right: 300px;
+	}
 	
 }

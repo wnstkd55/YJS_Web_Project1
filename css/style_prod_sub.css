@@ -558,9 +558,40 @@ main .container .content{
 	font-size: 13px;
 }
 
-.pagination > li {
-	background-color: #F2D4AE;
+.content .page {
+	text-align: center;
+	text-decoration: none;
 }
+
+.content .pagination {
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+}
+
+.pagination a {
+	text-align: center;
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	border-radius:50%;
+	font-size: 20px;
+	font-family: 'InkLipquid';
+}
+
+.pagination a.active {
+	text-decoration: none;
+	background-color: #e79120;
+	color: white;
+}
+
+.pagination a:hover:not(.active) {
+	background-color: #ebbb7c;
+	text-decoration: none;
+}
+
 
 footer {
 	width: auto;
