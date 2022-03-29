@@ -289,70 +289,25 @@ main{
 	/* border: 5px solid blue; */
 }
 
-.board .container-fluid{
+.banner_img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.board{
+	border-top: 5px solid rgba(250, 171, 67, 0.726);
+}
+
+.board h1{
+	font-family: 'InkLipquid';
+	border-bottom: 5px solid rgba(245, 90, 90, 0.726);
 	
 }
 
-.board .page-header{
-	font-family: 'InkLipquid';
-	font-weight: bold;
-}
-
-.board .table{
-	background-color: #fff;
-	border: #e79120 5px solid;
-}
-
-.board thead{
-	background-color: rgb(182, 182, 182);
-	font-weight: bold;
-}
-
-.board tbody tr:hover{
-	background-color: rgba(248, 194, 150, 0.212);
-}
-
-.board .table-responsive button{
+.board .btn-warning{
+	border: none;
 	float: right;
-}
-
-
-.sub-header{
-	font-family: 'InkLipquid';
-}
-
-.page {
-	text-align: center;
-	text-decoration: none;
-}
-
-.pagination {
-	display: inline-block;
-	text-align: center;
-	list-style: none;
-	text-decoration: none;
-}
-
-.pagination a {
-	text-align: center;
-	color: black;
-	float: left;
-	padding: 8px 16px;
-	text-decoration: none;
-	border-radius:50%;
-	font-size: 20px;
-	font-family: 'InkLipquid';
-}
-
-.pagination a.active {
-	text-decoration: none;
-	background-color: #e79120;
-	color: white;
-}
-
-.pagination a:hover:not(.active) {
-	background-color: #ebbb7c;
-	text-decoration: none;
+	margin: 10px;
 }
 
 footer {
