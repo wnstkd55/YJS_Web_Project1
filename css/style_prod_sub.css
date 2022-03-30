@@ -514,6 +514,7 @@ main .container .content{
 }
 .content .product .thumbnail:hover{
 	border: 1px #e79120 solid;
+	z-index: 2;
 	transform: scale(1.1);
 }
 

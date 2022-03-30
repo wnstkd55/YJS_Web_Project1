@@ -294,6 +294,197 @@ main{
 	/* border: 5px solid blue; */
 }
 
+.category{
+	position: relative;
+	float: none;
+	/* border: 5px solid blue; */
+	text-align: center;
+	
+}
+
+.m-dropdown {
+	margin: 20px auto;
+	width: 500px;
+	display: block;
+	z-index: -1;
+  }
+  .m-dropdown .e-button {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-ms-border-radius: 20px;
+	line-height: 20px;
+	padding: 8px 30px 8px 15px;
+	z-index: 1;
+	color: #fff;
+	font-family: 'InkLipquid';
+	font-size: 25px;
+	position: relative;
+	border: 2px solid transparent;
+	margin-top: 2px;
+	z-index: 1;
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	background: #1b1b1b;
+}
+.m-dropdown .e-button:hover {
+	cursor: pointer;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	color: #F2D4AE;
+}
+.m-dropdown .e-button:hover .e-burger span {
+	background: #F2D4AE;
+}
+.m-dropdown .e-button:before {
+	right: 100%;
+	margin-right: 2px;
+	border-bottom-right-radius: 10px;
+}
+.m-dropdown .e-button .e-burger {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 15px;
+	width: 15px;
+	height: 14px;
+	transform-origin: center;
+	z-index: -1;
+}
+
+.m-dropdown .e-button .e-burger span:first-child {
+	top: 0;
+	transform: none;
+}
+.m-dropdown .e-button .e-burger span:last-child {
+	top: auto;
+	bottom: 0;
+	transform: none;
+}
+.m-dropdown .e-button .e-burger:after {
+	-webkit-transition: height 0.3s ease-in-out;
+	-moz-transition: height 0.3s ease-in-out;
+	-ms-transition: height 0.3s ease-in-out;
+	-o-transition: height 0.3s ease-in-out;
+	transition: height 0.3s ease-in-out;
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 12px;
+	right: -37px;
+	height: 0;
+	width: 199px;
+	left: auto;
+	z-index: 1;
+	background: #1b1b1b;
+	opacity: 0;
+}
+.m-dropdown .e-button.open {
+	border-color: transparent;
+	background: #1b1b1b;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	color: #F2D4AE;
+}
+.m-dropdown .e-button.open .e-burger span {
+	background: #669999;
+}
+.m-dropdown .e-button.open .e-burger span:first-child {
+	opacity: 0;
+}
+.m-dropdown .e-button.open .e-burger span:nth-child(2) {
+	transform: translateY(-50%) rotate(-45deg);
+}
+.m-dropdown .e-button.open .e-burger span:nth-child(3) {
+	transform: translateY(-50%) rotate(45deg);
+}
+.m-dropdown .e-button.open .e-burger span:last-child {
+	opacity: 0;
+}
+.m-dropdown .e-button.open .e-burger:after {
+	height: 15px;
+	opacity: 1;
+}
+.m-dropdown .e-list {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	position: relative;
+	width: 500px;
+	margin: 0;
+	margin-top: -5px;
+	padding: 0;
+	padding-right: 50px;
+	list-style: none;
+	font-family: 'HSYuji-Regular';
+	/* font-family: 'InkLipquid'; */
+	font-size: 15px;
+	background: #1b1b1b;
+	display: inline-block;
+	/* float: left; */
+	overflow: hidden;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	z-index: 1;
+}
+
+.m-dropdown .e-list ul{
+	width: 500px;
+	height : 320px;
+	display: flex; 
+	align-content:flex-start; 
+	flex-direction:column; 
+	flex-wrap:wrap; 
+	overflow:auto;
+	list-style: none;
+}
+
+.m-dropdown .e-list li {
+	/* width: 100%; */
+	width : 200px;
+	float: left;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+	box-sizing: border-box;
+	position: relative;
+}
+.m-dropdown .e-list li:last-child {
+	border: none;
+}
+.m-dropdown .e-list li a {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding: 15px;
+	float: left;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+.m-dropdown .e-list li a:hover {
+	background: #fff;
+	color: #111;
+}
+
 .studio_intro{
 	height: auto;
 	float: none;
@@ -326,6 +517,11 @@ main{
 	text-align: center;
 	display: inline-block;
 	margin: 50px;
+}
+
+.studio_intro .jumbotron h1{
+	font-family: 'InkLipquid';
+	
 }
 
 .studio_intro .jumbotron p1{
