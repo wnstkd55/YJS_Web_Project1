@@ -588,12 +588,61 @@ section .option_btn{
 	position:relative;
 	top:1px;
 }
+
+.pd_sub_tabmenu {
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.37);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav a{
+	font-family: 'InkLipquid';
+	font-weight: bolder;
+	color: #000;
+	
+}
+
+.nav li{
+	font-family: 'InkLipquid';
+	color: #d13e3e;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
+#maker_comment{
+	text-align: center;
+	font-family: 'InkLipquid';
+	font-size: 25px;
+}
+
+#policy{
+	font-style: none;
+	font-family: 'InkLipquid';
+	padding: 20px;
+}
+
 section .prod_picture_sub{
 	width: 710px;
 }
 
 section .prod_picture_sub img{
-	margin: 20px;
+	padding: 10px
+}
+
+.buy_after .h4{
+	font-size: 20px;	
+}
+
+.buy_after p1{
+	font-size: 15px;
+}
+
+.buy_after img{
+	width: 30px;
+	height: 30px;
 }
 
 .back-to-top {
