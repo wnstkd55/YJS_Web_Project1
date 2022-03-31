@@ -614,13 +614,13 @@ section .option_btn{
 
 #maker_comment{
 	text-align: center;
-	font-family: 'InkLipquid';
-	font-size: 25px;
+	
+	font-size: 16px;
 }
 
 #policy{
 	font-style: none;
-	font-family: 'InkLipquid';
+	font-size: 16px;	
 	padding: 20px;
 }
 
